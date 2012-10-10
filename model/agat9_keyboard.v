@@ -1,17 +1,13 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
-// (C) COPYRIGHT 2012 Michael Tulupov
+// (C) COPYRIGHT 2012 Michael Tulupov (vaxxabait@gmail.com)
 
-// File:            agat9_keyboard.sv
+// File:            agat9_keyboard.v
 // Author:          Michael Tulupov
 
 // Description:     Model of the Agat-9 keyboard
-// Language:        SystemVerilog (1800-2009)
+// Language:        Verilog (1364-2001)
 
-// Path:            $HeadURL: $
-// Date:            $Date: $
-// Revision:        $Revision: $
-// Last changes by: $Author: $
-// ID:              $Id: $
+// Repository:      https://github.com/vaxxabait/agat9_ps2_keyboard/
 
 // Dependencies:
 
@@ -28,6 +24,8 @@
 // TODO:
 //		Add check of VDD/GND levels before vork
 //		Add timings
+//		Put 74xx models to the separate library
+//		Add Icarus Verilog, Verilator, VCS, NCV, Questa scripts
 //--------------------------------------------------------------------------------------------//
 
 `timescale 1ns/1ns
@@ -299,4 +297,4 @@ module agat9_keyboard(
 	// 		S76, S77
 
 
-endmodule agat9_keyboard
+endmodule // agat9_keyboard
